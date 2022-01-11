@@ -110,9 +110,6 @@ img{
     flex-wrap: wrap;
     justify-content: center;
 }
-.footer{
-    background-color: black;
-}
 .social ul{
     display: flex;
     margin: 5px;
@@ -128,3 +125,136 @@ img{
     color: #fff;
     text-align: center;
 }
+.color{
+    background-color: black;
+}
+.new{
+    margin: 10px 0;
+}
+.itemtitle{
+    font-size: 1.5em;
+    color: #fff;
+    position: relative;
+    color: transparent;
+    
+    
+}
+.itemtitle::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    color: yellow;
+    animation: myanimation 8s ease-in-out 1s infinite alternate;
+}
+@keyframes myanimation {
+    0%{
+        content: 'E|';
+    }
+    4%{
+        content: 'Ev|';
+    }
+    8%{
+        content: 'Eve|';
+    }
+    12%{
+        content: 'Every|';
+    }
+    16%{
+        content: 'Every |';
+    }
+    20%{
+        content: 'Every t|';
+    }
+    24%{
+        content: 'Every th|';
+    }
+    28%{
+        content: 'Every thi|';
+    }
+    32%{
+        content: 'Every thin|';
+    }
+    34%{
+        content: 'Every thing|';
+    }
+    38%{
+        content: 'Every thing |';
+    }
+    42%{
+        content: 'Everything i|';
+    }
+    46%{
+        content: 'Every thing is|';
+    }
+    50%{
+        content: 'Every thing is |';
+    }
+    54%{
+        content: 'Every thing is f|';
+    }
+    58%{
+        content: 'Every thing is fr|';
+    }
+    62%{
+        content: 'Every thing is fre|';
+    }
+    64%{
+        content: 'Every thing is fres|';
+    }
+    68%{
+        content: 'Every thing is fresh|';
+    }
+    68% {
+        content: 'Every thing is fresh|';
+    }
+    68%,84%{
+        content: 'Every thing is fresh|';
+    }
+    85% {
+        content: 'Every thing is fres|';
+    }
+    85% {
+        content: 'Every thing is fre|';
+    }
+    87% {
+        content: 'Every thing is fr|';
+    }
+    88% {
+        content: 'Every thing is f|';
+    }
+    89% {
+        content: 'Every thing is |';
+    }
+    90% {
+        content: 'Every thing is|';
+    }
+    91% {
+        content: 'Every thing is|';
+    }
+    92% {
+        content: 'Every thing i|';
+    }
+    93% {
+        content: 'Every thing|';
+    }
+    94% {
+        content: 'Every th|';
+    }
+    95% {
+        content: 'Every |';
+    }
+    96% {
+        content: 'Ever|';
+    }
+    97% {
+        content: 'Eve|';
+    }
+    98% {
+        content: 'Ev|';
+    }
+    99% {
+        content: 'E|';
+    }
+    100% {
+        content: '|';
+    }
